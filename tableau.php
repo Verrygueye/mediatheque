@@ -3,6 +3,8 @@
 if(isset($_GET['id']) && isset($_GET['action'])){
   if($_GET['action']==2){
   echo "a supprimer".   $_GET['id'];
+
+
   }
   } ?>
 
@@ -11,15 +13,7 @@ if(isset($_GET['id']) && isset($_GET['action'])){
     <head>
         <title>Test Base de donnée</title>
          <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
-        <style>
-          /*body{
-            background-color: black;
-           
-          }
-          p{
-            color: white;
-          }
-        </style>
+       
     </head>
 <body>
 
